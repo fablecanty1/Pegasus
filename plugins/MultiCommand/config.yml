@@ -34,7 +34,7 @@ Commands:
   CREATE_NORMAL:
   - /mw create $1-normal normal
   - '[1]/mw load $1-normal'
-  - '[1]/wb $1-normal set 1000 1000 spawn'
+  - '[1]/wb $1-normal set 250 250 spawn'
   GOTO_NORMAL_WORLD:
   - /mw load $1-normal
   - '[2]/mw move $1 $1-normal'
