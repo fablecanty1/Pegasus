@@ -1,0 +1,15 @@
+spawns: 
+  default: 
+    world: Lantea
+    x: -295.1526978793789
+    y: 180.0
+    z: -1055.5003818209734
+    yaw: 357.74985
+    pitch: 15.149998
+  newbies: 
+    world: MidwayStation
+    x: 429.3756611413765
+    y: 218.0
+    z: -631.6974444997031
+    yaw: -0.7499929
+    pitch: 34.650013

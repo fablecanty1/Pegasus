@@ -1,0 +1,148 @@
+users:
+  centinal05:
+    group:
+    - Tollan
+  BoltZ69:
+    group:
+    - Tollan
+  ExoShift:
+    group:
+    - Tollan
+  messra20:
+    group:
+    - Tollan
+  tyfang360:
+    group:
+    - Tollan
+  gcewing:
+    group:
+    - Tollan
+  fablecanty1:
+    group:
+    - Tollan
+  wee_fin12:
+    group:
+    - Tollan
+  043d4d13-fb4e-4b71-95d2-7192b205af91:
+    group:
+    - Ascended
+    options:
+      name: Bysokar
+  7e413ea5-7102-4d79-9323-61991da74513:
+    group:
+    - Tollan
+    options:
+      name: random09
+  79c6d291-83dd-4f93-8749-e9b784fee59d:
+    group:
+    - Ascended
+    options:
+      name: Kahleesi
+groups:
+  Tollan:
+    default: false
+    permissions:
+    - essentials.hat
+    - essentials.nick
+    - ultimatearena.join
+    - factionsplus.keepItemsOnDeath.*
+    - globalmarket.quicklist
+    - prism.lookup
+    inheritance:
+    - Tauri
+    worlds: []
+    prefix: '&9[Tollan]  &8'
+    suffix: '&f'
+  Ancient:
+    default: false
+    permissions:
+    - essentials.keepxp
+    - essentials.firework
+    - globalmarket.quickmail
+    inheritance:
+    - Tollan
+    worlds: []
+    prefix: '&5[Ancient] &8'
+    suffix: '&f'
+  Tauri:
+    default: true
+    permissions:
+    - herochat.force.join.Local
+    - herochat.force.join.World
+    - herochat.force.join.Faction
+    - herochat.force.join.Allies
+    - herochat.speak.*
+    - herochat.join.*
+    - herochat.leave.*
+    - herochat.pm
+    - herochat.mute
+    - essentials.help
+    - essentials.near
+    - essentials.depth
+    - essentials.list
+    - essentials.motd
+    - essentials.compass
+    - essentials.spawn
+    - herobounty.new
+    - herobounty.accept
+    - herobounty.locate
+    - herobounty.list
+    - globalmarket.send
+    - globalmarket.history
+    - globalmarket.pricecheck
+    - essentials.build
+    - essentials.interact
+    - essentials.balance
+    - essentials.helpop
+    - globalmarket.seeannounce
+    - herochat.force.join.Universe
+    - essentials.afk.auto
+    - -essentials.afk
+    - essentials.rules
+    - -essentials.nick
+    - essentials.me
+    - essentials.realname
+    - essentials.seen
+    - essentials.msg
+    - essentials.balancetop
+    - essentials.tpdeny
+    - essentials.tpaccept
+    - globalmarket.create
+    - essentials.signs.use.sell
+    - essentials.sell
+    - essentials.pay
+    - factionsplus.keepItemsOnDeath.warzone
+    - -ultimatearena.join
+    - -essentials.build.pickup.403
+    - limitedcreative.nolimit.chest
+    - -jobs.command.join
+    - -jobs.command.leave
+    - ultimatearena.join
+    - factionsplus.keepItemsOnDeath.Faction
+    - factionsplus.keepItemsOnDeath.SafeZone
+    - lagg.check
+    - bukkitspeak.user
+    - essentials.kick.notify
+    - essentials.mute.notify
+    - PersonalWorlds.create
+    - PersonalWorlds.generator
+    - PersonalWorlds.generators.normal
+    - PersonalWorlds.tp
+    - report.use
+    - essentials.worth
+    - globalmarket.quicklist
+    - -bukkit.command.version
+    inheritance:
+    - ''
+    worlds: []
+    prefix: '&6[Tauri] &8'
+    suffix: '&f'
+  Ascended:
+    default: false
+    permissions:
+    - '*'
+    inheritance:
+    - Ancient
+    worlds: []
+    prefix: '&3[Ascended] &8'
+    suffix: '&f'

@@ -1,0 +1,28 @@
+worlds:
+-   title: Lantea/Overworld
+    height: 256
+    the_end: false
+    sealevel: 64
+    name: Lantea
+    nether: false
+-   title: MidwayStation/Overworld
+    height: 256
+    the_end: false
+    sealevel: 64
+    name: MidwayStation
+    nether: false
+-   title: P2Y-321/Overworld
+    height: 256
+    the_end: false
+    sealevel: 64
+    name: P2Y-321
+    nether: false
+-   title: DIM88/GeostationaryOrbit
+    height: 256
+    the_end: false
+    sealevel: 64
+    name: DIM88
+    nether: false
+isMCPC: true
+useSaveFolderAsName: true
+maxWorldHeight: 256

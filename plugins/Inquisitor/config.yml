@@ -1,0 +1,4 @@
+db: {shared: true, username: root, prefix: Inquisitor_, v2-14-fix: true, password: S0ulM@t3,
+    url: 'jdbc:mysql://localhost/stargatemc'}
+global: null
+webServer: {port: 8090, enabled: true, address: stargatemc.com, upgradeWebRoot: true}

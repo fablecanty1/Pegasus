@@ -1,0 +1,13 @@
+# Main configuration file for the koth arena type
+# http://dev.bukkit.org/bukkit-plugins/ultimatearena/pages/configuration/
+
+gameTime: 1800
+lobbyTime: 80
+maxDeaths: 900
+allowTeamKilling: true
+rewardBasedOnXp: true
+countMobKills: false
+cashReward: 100
+maxPoints: 60
+rewards:
+- SGCRAFT_NAQUADAH, 3

@@ -1,0 +1,11 @@
+# Main Configuration for the Mob Arena Type
+# http://dev.bukkit.org/bukkit-plugins/ultimatearena/pages/configuration/
+
+gameTime: 900
+lobbyTime: 90
+maxDeaths: 5
+allowTeamKilling: false
+countMobKills: true
+rewardBasedOnXp: true
+maxWave: 5
+cashReward: 750

@@ -1,0 +1,14 @@
+# Main configuration file for the pvp arena type
+# http://dev.bukkit.org/bukkit-plugins/ultimatearena/pages/configuration/
+
+gameTime: 300
+lobbyTime: 60
+maxDeaths: 1
+allowTeamKilling: false
+countMobKills: false
+rewardBasedOnXp: true
+blacklistedClasses:
+- spleef
+cashReward: 1000
+rewards:
+- SGCRAFT_NAQUADAH, 5

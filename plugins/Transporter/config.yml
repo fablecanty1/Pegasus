@@ -1,0 +1,18 @@
+pins: {}
+realm: {enabled: true, name: Universe}
+servers:
+- {sendChatFilter: null, enabled: true, publicAddress: '*', receiveChat: false, allowRemoteCommands: false,
+    sendChat: false, mExecTarget: true, pluginAddress: 'localhost:25601', announcePlayers: false,
+    receiveChatFilter: null, name: Midway, pmFormat: null, playerListFormat: '%italic%%player%',
+    chatFormat: null, privateAddress: '*', sendChatFormatFilter: null, key: midway}
+global: null
+worlds:
+- {environment: NORMAL, seed: '5490165461408509146', name: MidwayStation, generator: null,
+    autoLoad: true}
+configVersion: 2
+network:
+    clusterName: stargatemc
+    bungeeServer: Pegasus
+    listenAddress: '*:25602'
+    bannedAddresses: []
+    key: pegasus

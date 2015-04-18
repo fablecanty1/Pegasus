@@ -1,0 +1,20 @@
+{
+  "name": "Goauld",
+  "description": "Conquers and gods bow down and worship us or be destroyed",
+  "createdAtMillis": 1424532490174,
+  "relationWishes": {
+    "661ff5d3-2ad4-4352-9a6d-b7282d6b2123": "ENEMY",
+    "33f15a53-1e51-4c21-8b0d-bf304bc5c192": "ENEMY",
+    "b69e2bbf-e3ec-4f2f-b2d4-686192127d19": "ENEMY",
+    "17f9ea66-d1e3-4344-a6d2-bb7fdf6df2dc": "ENEMY",
+    "a4abc007-8e4b-4343-86ab-88a8c08fe6c3": "ALLY"
+  },
+  "perms": {
+    "CONTAINER": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "ALLY"
+    ]
+  }
+}

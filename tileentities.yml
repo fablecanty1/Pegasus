@@ -1,0 +1,105 @@
+# This is the main configuration file for TileEntities.
+# 
+# If you need help with the configuration or have any questions related to Cauldron,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #cauldron @ irc.esper.net ( http://webchat.esper.net/?channel=cauldron )
+# Forums: http://cauldron.minecraftforge.net/
+# 
+# Setting: debug.enable-te-can-update-warning Default: false   # Set true to detect which tileentities should not be ticking.
+# Setting: settings.skip-tileentity-ticks Default: true   # If enabled, turns on tileentity tick skip feature when no players are near.
+# Setting: debug.enable-te-place-warning Default: false   # Warn when a mod requests tile entity from a block that doesn't support one
+# Setting: debug.enable-te-inventory-warning Default: false   # Set true to detect which tileentities with inventory failed to detect size for Bukkit's InventoryType enum. Note: This may detect a false-positive.
+# Setting: settings.prevent-invalid-tileentity-updates Default: true   # Used to determine if a tileentity should tick and if not the TE is added to a ban list. Note: This should help improve performance.
+
+debug:
+  enable-te-can-update-warning: false
+  enable-te-place-warning: false
+  enable-te-inventory-warning: false
+settings:
+  skip-tileentity-ticks: true
+  prevent-invalid-tileentity-updates: true
+config-version: 1
+world-settings:
+  default:
+    mods-railcraft-common-blocks-hidden-TileHidden:
+      tick-no-players: false
+      tick-interval: 1
+    mrtjp-projectred-illumination-TileLamp:
+      tick-no-players: false
+      tick-interval: 1
+    advsolar-common-tiles-TileEntityQGenerator:
+      tick-no-players: false
+      tick-interval: 1
+    forestry-apiculture-gadgets-TileSwarm:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityChest:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityMobSpawner:
+      tick-no-players: false
+      tick-interval: 1
+    mrtjp-projectred-exploration-TileLily:
+      tick-no-players: false
+      tick-interval: 1
+    gcewing-sg-ic2-IC2PowerTE:
+      tick-no-players: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-tile-TileEntityArclamp:
+      tick-no-players: false
+      tick-interval: 1
+    gcewing-sg-SGBaseTE:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityEnchantmentTable:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityBrewingStand:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityPiston:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityTeleporter:
+      tick-no-players: false
+      tick-interval: 1
+    com-mrcrayfish-furniture-tileentity-TileEntityBlender:
+      tick-no-players: false
+      tick-interval: 1
+    com-navybofus-mediccraft-tileentity-TileEntityBandageContainer:
+      tick-no-players: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-planets-mars-tile-TileEntityLaunchController:
+      tick-no-players: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-tile-TileEntityParaChest:
+      tick-no-players: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-tile-TileEntityAirLockController:
+      tick-no-players: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-tile-TileEntityAirLock:
+      tick-no-players: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-planets-mars-tile-TileEntityTerraformer:
+      tick-no-players: false
+      tick-interval: 1
+    buildcraft-transport-TileFilteredBuffer:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityBeacon:
+      tick-no-players: false
+      tick-interval: 1
+    jp-mc-ancientred-starminer-basics-tileentity-TileEntityGravityGenerator:
+      tick-no-players: false
+      tick-interval: 1
+    com-Oceancraft-common-TileEntityOyster:
+      tick-no-players: false
+      tick-interval: 1
+    com-Oceancraft-common-TileEntityShell6:
+      tick-no-players: false
+      tick-interval: 1

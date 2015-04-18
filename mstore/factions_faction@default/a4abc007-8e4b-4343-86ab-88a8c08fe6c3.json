@@ -1,0 +1,19 @@
+{
+  "name": "BOS",
+  "description": "Brotherhood Of Steel",
+  "createdAtMillis": 1428219429067,
+  "invitedPlayerIds": [
+    "a2ee88d2-512a-41c9-9062-77fd8ead9b19"
+  ],
+  "relationWishes": {
+    "aa7f9d84-fb11-42d6-a4c9-166a9ac2d4ab": "ALLY"
+  },
+  "perms": {
+    "CONTAINER": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "ALLY"
+    ]
+  }
+}
