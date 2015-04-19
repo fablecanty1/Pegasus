@@ -191,10 +191,10 @@
   "removeLWCProtectionOn": true,
   "disallowPublicAccessToLWCProtectionsInLands": true,
   "allowFactionKill": {
-    "allyMobs": true,
-    "neturalMobs": true,
+    "allyMobs": false,
+    "neturalMobs": false,
     "enemyMobs": true,
-    "truceMobs": true
+    "truceMobs": false
   },
   "allowFactionInteract": {
     "PIG": true,
